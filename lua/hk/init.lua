@@ -144,7 +144,31 @@ function M.setup()
         CmpItemAbbrMatchFuzzyDefault = { fg = colors.chinese_violet, italic = true},
         CmpItemKindEnumMemberDefault = { fg = colors.chinese_violet, italic = true},
         CmpItemKindConstructorDefault = { fg = colors.chinese_violet, italic = true},
-        CmpItemKindTypeParameterDefault = { fg = colors.chinese_violet, italic = true}
+        CmpItemKindTypeParameterDefault = { fg = colors.chinese_violet, italic = true},
+
+        -- Oil
+        OilDir = { fg = colors.chinese_violet, italic = true },
+        OilCopy = { fg = colors.eggplant, italic = true, bold = true },
+        OilMove = { fg = colors.eggplant, italic = true, bold = true },
+        OilPurge = { fg = colors.chinese_violet, italic = true, bold = true },
+        OilTrash = { fg = colors.chinese_violet, italic = true, bold = true },
+        OilChange = { fg = colors.eggplant, italic = true, bold = true },
+        OilCreate = { fg = colors.eggplant, italic = true, bold = true },
+        OilDelete = { fg = colors.eggplant, italic = true},
+        OilHidden = { fg = colors.salmon_pink, italic = true},
+        OilSocket = { fg = colors.chinese_violet, italic = true},
+        OilDirIcon = { fg = colors.chinese_violet, italic = true},
+        OilRestore = { fg = colors.chinese_violet, italic = true},
+        OilDirHidden = { fg = colors.chinese_violet, italic = true},
+        OilFileHidden = { fg = colors.chinese_violet, italic = true},
+        OilLinkHidden = { fg = colors.chinese_violet, italic = true},
+        OilLinkTarget = { fg = colors.chinese_violet, italic = true},
+        OilSocketHidden = { fg = colors.chinese_violet, italic = true},
+        OilTrashSourcePath = { fg = colors.chinese_violet, italic = true},
+        OilLinkTargetHidden = { fg = colors.chinese_violet, italic = true},
+        OilOrphanLinkHidden = { fg = colors.chinese_violet, italic = true},
+        OilOrphanLinkTarget = { fg = colors.chinese_violet, italic = true},
+        OilOrphanLinkTargetHidden = { fg = colors.chinese_violet, italic = true}
     }
 
     for group, opts in pairs(highlights) do
