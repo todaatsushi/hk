@@ -7,6 +7,7 @@ function M.setup()
         chinese_violet = "#985D80",
         magenta_haze = "#7E4E6B",
         mountbatten_pink = "#AA7493",
+        salmon_pink = "#F59CA9",
     }
 
     local highlights = {
@@ -58,6 +59,9 @@ function M.setup()
         -- Language specific
         ["@tag"] = { fg = colors.chinese_violet},
         makeTarget = { fg = colors.chinese_violet},
+
+        -- Telescope
+        TelescopeMatching = { fg = colors.salmon_pink, bold = true},
 
         -- Non Tree sitter
         qfFileName = { fg = colors.chinese_violet},
