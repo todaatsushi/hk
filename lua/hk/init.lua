@@ -12,6 +12,7 @@ function M.setup()
 
     local highlights = {
         Normal = { fg = colors.chinese_violet, bg = colors.background},
+
         ["@keyword"] = { fg = colors.chinese_violet, italic = true},
         ["@variable"] = { fg = colors.magenta_haze},
         ["@keyword.exception"] = { fg = colors.chinese_violet, italic = true},
@@ -70,6 +71,10 @@ function M.setup()
 
         -- Cursor
         CurSearch = { fg = colors.background, bg = colors.salmon_pink},
+
+        -- Diagnostics
+        DiagnosticInfo = { fg = colors.chinese_violet, bg = colors.background},
+        DiagnosticFloatingInfo = { fg = colors.chinese_violet, bg = colors.background},
     }
 
     for group, opts in pairs(highlights) do
