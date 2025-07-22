@@ -15,6 +15,7 @@ function M.setup()
 
         ["@keyword"] = { fg = colors.chinese_violet, italic = true},
         ["@variable"] = { fg = colors.magenta_haze},
+        ["@variable.parameter.builtin"] = { fg = colors.magenta_haze, bold = true},
         ["@keyword.exception"] = { fg = colors.chinese_violet, italic = true},
         ["@keyword.coroutine"] = { fg = colors.chinese_violet, bold = true},
         ["@string"] = { fg = colors.mountbatten_pink},
@@ -56,9 +57,11 @@ function M.setup()
         -- Git
         ["@diff.plus"] = { fg = colors.mountbatten_pink},
         ["@diff.minus"] = { fg = colors.chinese_violet},
+        ["@diff.delta"] = { fg = colors.magenta_haze},
 
         -- Language specific
         ["@tag"] = { fg = colors.chinese_violet},
+        ["@tag.builtin"] = { fg = colors.chinese_violet, bold = true},
         makeTarget = { fg = colors.chinese_violet},
 
         -- Telescope
@@ -75,6 +78,9 @@ function M.setup()
         -- Diagnostics
         DiagnosticInfo = { fg = colors.chinese_violet, bg = colors.background},
         DiagnosticFloatingInfo = { fg = colors.chinese_violet, bg = colors.background},
+        Debug = { fg = colors.mountbatten_pink, bg = colors.background},
+
+        Changed = { fg = colors.mountbatten_pink, bg = colors.background},
     }
 
     for group, opts in pairs(highlights) do
