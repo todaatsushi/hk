@@ -61,6 +61,7 @@ function M.setup()
 
         -- Non Tree sitter
         qfFileName = { fg = colors.chinese_violet},
+        QuickFixLine = { fg = colors.mountbatten_pink, bold = true},
         qfLineNr = { fg = colors.chinese_violet},
     }
 
