@@ -67,6 +67,9 @@ function M.setup()
         qfFileName = { fg = colors.chinese_violet},
         QuickFixLine = { fg = colors.mountbatten_pink, bold = true},
         qfLineNr = { fg = colors.chinese_violet},
+
+        -- Cursor
+        CurSearch = { fg = colors.background, bg = colors.salmon_pink},
     }
 
     for group, opts in pairs(highlights) do
