@@ -120,7 +120,7 @@ function M.setup()
         ["@keyword.debug"] = { fg = colors.chinese_violet },
         ["@keyword.directive"] = { fg = colors.chinese_violet },
         ["@keyword.function"] = { fg = colors.chinese_violet },
-        ["@keyword.import"] = { fg = colors.chinese_violet },
+        ["@keyword.import"] = { fg = colors.chinese_violet, bold = true, italic = true },
         ["@keyword.operator"] = { fg = colors.chinese_violet },
         ["@keyword.repeat"] = { fg = colors.chinese_violet },
         ["@keyword.return"] = { fg = colors.chinese_violet },
