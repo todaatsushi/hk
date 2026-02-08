@@ -162,6 +162,7 @@ function M.setup()
         ["@punctuation"] = { fg = colors.chinese_violet },
         ["@punctuation.special"] = { fg = colors.chinese_violet, bold = true },
         ["@punctuation.bracket"] = { fg = colors.chinese_violet, bold = true },
+        ["@punctuation.delimiter"] = { fg = colors.chinese_violet, bold = true },
         ["@function.method.call"] = { fg = colors.chinese_violet, italic = true },
 
         ["@label"] = { fg = colors.mountbatten_pink, italic = true },
