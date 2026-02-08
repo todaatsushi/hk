@@ -134,6 +134,7 @@ function M.setup()
         ["@string"] = { fg = colors.mountbatten_pink },
         ["@string.escape"] = { fg = colors.chinese_violet },
         ["@string.special"] = { fg = colors.chinese_violet, italic = true },
+        ["@string.documentation"] = { fg = colors.chinese_violet, bold = true },
         ["@character.special"] = { fg = colors.chinese_violet, italic = true },
         ["@number"] = { fg = colors.salmon_pink },
         ["@float"] = { fg = colors.salmon_pink },
