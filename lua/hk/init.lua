@@ -269,9 +269,9 @@ function M.setup()
         ["@markup.strikethrough"] = { strikethrough = true },
 
         -- Non Tree sitter
-        qfFileName = { fg = colors.chinese_violet },
-        QuickFixLine = { fg = colors.mountbatten_pink, bold = true },
-        qfLineNr = { fg = colors.chinese_violet },
+        qfFileName = { fg = colors.salmon_pink, bg = colors.eggplant },
+        QuickFixLine = { fg = colors.background, bg = colors.mountbatten_pink, bold = true },
+        qfLineNr = { fg = colors.magenta_haze, bg = colors.eggplant },
 
         -- Cursor
         CurSearch = { fg = colors.background, bg = colors.salmon_pink },
